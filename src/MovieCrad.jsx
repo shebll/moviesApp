@@ -9,7 +9,7 @@ const MovieCard =({movie})=>{
     <div>
       <img
         src={
-          movie.Poster != "N/A"
+          movie.Poster !== "N/A"
             ? movie.Poster
             : "https://via.placeholder.com/400"
         }
