@@ -7,14 +7,6 @@ import "./App.css";
 // API url + API key
 const API_URL = "http://www.omdbapi.com/?apikey=4c1c6ebf";
 
-const movie1 = {
-  Title: "City of God",
-  Year: "2002",
-  imdbID: "tt0317248",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-};
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setsearchTerm] = useState([]);
